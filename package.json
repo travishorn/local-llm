@@ -1,0 +1,16 @@
+{
+  "name": "local-llm",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "license": "MIT",
+  "description": "Run a local LLM in a chat context using Node.js without needing any external service like Ollama running.",
+  "type": "module",
+  "dependencies": {
+    "node-llama-cpp": "^2.8.14"
+  }
+}
